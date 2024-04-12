@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['cervical_lesion']
+
+roboflow:
+  workspace: suman-computer-vision
+  project: cancer-s6j0j
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/suman-computer-vision/cancer-s6j0j/dataset/1
